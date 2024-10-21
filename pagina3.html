@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="stylesheet" href="EstilosCSS.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html" class="active">Página 3</a>
+    </nav>
+
+    <div class="container">
+        <h1>Página 3</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Vivamus luctus egestas libero, eget finibus nisi vestibulum ac.</p>
+        <p>Sed vel lectus vitae eros luctus tincidunt.</p>
+        
+        <img src="Imagenes/Foto1.jfif" alt="Imagen 1" class="img-fluid">
+        <img src="Imagenes/foto2.jfif" alt="Imagen 2" class="img-fluid">
+        <img src="Imagenes/Foto.jpg" alt="Imagen 3" class="img-fluid">
+
+        <div class="card mt-4">
+            <div class="card-body">
+                una tarjeta mas, me encanta
+            </div>
+        </div>
+
+        <button class="btn btn-info mt-2" data-toggle="collapse" data-target="#demo3">Mostrar más</button>
+        <div id="demo3" class="collapse">
+            <p>ya me canse de escribir, ayudenme</p>
+        </div>
+
+        <button type="button" class="btn btn-danger mt-2" onclick="mostrarMensaje('Has clickeado el botón de Página 3!')">Botón de Peligro de Bootstrap</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
