@@ -1,0 +1,64 @@
+/* Estilo general */
+body {
+    background-color: #dcdcdc;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(31, 0, 82, 0.3);
+}
+
+.navbar .nav-item {
+    color: black !important; /* Color negro para el texto dentro del <li> */
+}
+
+.navbar .nav-item .nav-link {
+    color: rgb(66, 0, 165) !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+/* Campos de entrada */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de registro */
+.btn-primary {
+    width: 100%;
+    background-color: #0044cc !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003399 !important;
+}
+
+/* Enlace a iniciar sesión */
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

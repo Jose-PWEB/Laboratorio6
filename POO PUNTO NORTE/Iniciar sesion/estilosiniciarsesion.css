@@ -1,0 +1,35 @@
+body {
+    background-color: #dcdcdc;
+}
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(31, 0, 82, .3);
+}
+
+.navbar .nav-item {
+    color: black !important; /* Hace que el texto dentro del <li> sea negro */
+}
+
+.navbar .nav-item .nav-link {
+    color: rgb(66, 0, 165) !important; /* Hereda el color negro del <li> */
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+.btn-primary {
+    width: 100%;
+}
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+

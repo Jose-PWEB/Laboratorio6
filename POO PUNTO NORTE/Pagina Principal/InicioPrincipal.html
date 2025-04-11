@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punto norte</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilospaginaprincipal.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/Imagenes/LogoPN.jpg" alt="Punto Norte">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Registrarse/registrarse.html">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenedor para las cards -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <!-- Card 1: Agendar Cita -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/Imagenes/Calendario principal.png" class="card-img-top" alt="Agendar cita">
+          <div class="card-body">
+            <h5 class="card-title">Agendar Cita</h5>
+            <p class="card-text">Agenda una cita con nosotros de forma rápida y sencilla.</p>
+            <a href="/Agendar cita/Agendarcita.html" class="btn btn-primary">Agendar ahora</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Ir a la Tienda -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/Imagenes/Productos principal.png" class="card-img-top" alt="Tienda">
+          <div class="card-body">
+            <h5 class="card-title">Nuestra Tienda</h5>
+            <p class="card-text">Explora nuestros productos y encuentra lo que necesitas.</p>
+            <a href="/TiendaProductos/TiendaProductos.html" class="btn btn-primary">Ir a la tienda</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
